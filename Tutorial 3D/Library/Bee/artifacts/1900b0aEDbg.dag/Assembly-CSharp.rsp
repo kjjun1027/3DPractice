@@ -354,6 +354,8 @@
 "Assets/Script/HUD.cs"
 "Assets/Script/PickaxeController.cs"
 "Assets/Script/PlayerController.cs"
+"Assets/Script/Rock.cs"
+"Assets/Script/SoundManager.cs"
 "Assets/Script/WeaponManager.cs"
 "Assets/Script/WeaponSway.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
