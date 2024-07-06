@@ -54,6 +54,7 @@ public class WeaponManager : MonoBehaviour
     // Use this for initialization
     void Start()
     {
+        StartCoroutine(ChangeWeaponCoroutine("GUN", "SubMachineGun1"));
         for (int i = 0; i < guns.Length; i++)
         {
             gunDictionary.Add(guns[i].gunName, guns[i]);
