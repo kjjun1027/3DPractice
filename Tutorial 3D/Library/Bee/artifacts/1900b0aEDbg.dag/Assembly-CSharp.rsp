@@ -354,6 +354,7 @@
 "Assets/Script/HandController.cs"
 "Assets/Script/HUD.cs"
 "Assets/Script/Item.cs"
+"Assets/Script/ItemEffectDatabase.cs"
 "Assets/Script/ItemPickUp.cs"
 "Assets/Script/PickaxeController.cs"
 "Assets/Script/PlayerController.cs"

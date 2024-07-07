@@ -169,6 +169,11 @@ public class StatusController : MonoBehaviour
             Debug.Log("캐릭터의 hp가 0이 되었습니다!!");
     }
 
+    public void IncreaseSP(int _count)
+    {
+
+    }
+
     public void IncreaseDP(int _count)
     {
         if (currentDp + _count < hp)
