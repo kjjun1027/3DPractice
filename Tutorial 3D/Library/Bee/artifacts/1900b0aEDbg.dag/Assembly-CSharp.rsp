@@ -363,6 +363,7 @@
 "Assets/Script/UI/DragSlot.cs"
 "Assets/Script/UI/Inventory.cs"
 "Assets/Script/UI/Slot.cs"
+"Assets/Script/UI/SlotToolTip.cs"
 "Assets/Script/UI/StatusController.cs"
 "Assets/Script/WeaponManager.cs"
 "Assets/Script/WeaponSway.cs"
