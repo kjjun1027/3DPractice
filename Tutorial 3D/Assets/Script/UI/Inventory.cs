@@ -17,6 +17,20 @@ public class Inventory : MonoBehaviour
     // ½½·Ôµé.
     private Slot[] slots;
 
+    public Slot[] GetSlots() {  return slots; }
+
+    [SerializeField] private Item[] items;
+
+    public void LoadToInven(int _arrayNum, string _itemName, int _itemNum)
+    {
+        for(int i = 0; i < items.Length; i++)
+        {
+            if (items[i].name == _itemName)
+            {
+                slots[_arrayNum].AddItem(items[i], _itemNum);
+            }
+        }
+    }
 
     // Use this for initialization
     void Start()
@@ -45,11 +59,13 @@ public class Inventory : MonoBehaviour
 
     private void OpenInventory()
     {
+        GameManager.isOpenInventory = true;
         go_InventoryBase.SetActive(true);
     }
 
     private void CloseInventory()
     {
+        GameManager.isOpenInventory = false;
         go_InventoryBase.SetActive(false);
     }
 
